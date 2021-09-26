@@ -2,13 +2,11 @@
 
 
 
-[TOC]
-
-
-
 ## About driver
 
-It's a manufacturer software of standard serial to usb chip marked CH340. This is an updated version from the original driver which works on Raspberry Pi Kernel with the zzh ZigBee development board
+I have been working with zigbee2mqtt and ConBee - whihc works quite well.  But I recently purchased a [ZZH](https://electrolama.com/projects/zig-a-zig-ah/) board and it was not quite working right on a Raspberry Pi. I was seeing latency and delays on events from the board. What should happen is that when a sensor fires - the event should be in real time and zigbee2mqtt should see that right away.  There was a distinct lack of real time.  After a bit of messing around I figured the driver might be faulty since a quick port to Windows worked fine.  Seems like it is and I loaded the latest driver with a slight mod and fork from the original repo. 
+
+Essentially, It's a manufacturer software of standard serial to usb chip marked CH340. This is an updated version from the original driver which works on Raspberry Pi Kernel with the zzh ZigBee development board.
 
 ## Changes
 
