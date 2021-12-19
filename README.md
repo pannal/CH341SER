@@ -1,4 +1,4 @@
-# CH341SER driver
+# CH341SER driver - DKMS
 
 1. [About driver](#about-driver)  
 2. [Changes](#changes)  
