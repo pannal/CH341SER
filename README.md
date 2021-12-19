@@ -1,4 +1,4 @@
-# CH341SER driver - ZZH ZigBee
+# CH341SER driver - ZZH ZigBee - DKMS
 
 
 
